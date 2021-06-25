@@ -21,4 +21,4 @@ RUN apt-get update \
 
 EXPOSE 9000
 
-ENTRYPOINT ["/usr/sbin/php-fpm8.0", "--nodaemonize"]
+CMD ["/usr/sbin/php-fpm8.0", "--nodaemonize"]
